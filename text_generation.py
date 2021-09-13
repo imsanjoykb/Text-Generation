@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1QZY3TDCWwq6TMzOQh98623WXl44vJQSY
 
 #### Author : Sanjoy Biswas
-#### Project : Text Generation With AI System
 #### Email : sanjoy.eee32@gmail.com
+### Portfolio : https://imsanjoykb.github.io/
 """
 
 !pip install transformers
@@ -73,7 +73,9 @@ print(tokenizer.decode(output[0], skip_special_tokens=True))
 
 """### Save the output in a variable"""
 
-text = tokenizer.decode(output[0], skip_special_tokens=True).join(text.split(".")[:-1]) + "."
+text_x = tokenizer.decode(output[0], skip_special_tokens=True)
+
+text = tokenizer.decode(output[0], skip_special_tokens=True).join(text_x.split(".")[:-1]) + "."
 
 text
 
@@ -97,6 +99,7 @@ gr.Interface(generate_text,"textbox", output_text, title="Text Generation",
 
 """### Save Output as CSV File"""
 
+from google.colab import files
 with open('generatefile.csv','w') as f:
   f.write(text)
 
@@ -105,5 +108,5 @@ with open('generatefile.csv','w') as f:
 import pickle
 pickle.dump(model,open('nlp_model.pkl','wb'))
 
-pickle.dump(text,open('nlp_text.pkl','wb'))
+pickle.dump(text,open('projmodel.pkl','wb'))
 
