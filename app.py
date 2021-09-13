@@ -1,4 +1,6 @@
 from flask import Flask, render_template, request
+import os
+import re
 
 app=Flask(__name__)
 
@@ -6,15 +8,9 @@ app=Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/index.html')
+@app.route('/web.html')
 def index_phish():
-    return render_template('index.html')
-
-
-@app.route('/index_phishscore.html')
-def index_phishscore():
-    return render_template('index_phishscore.html')
-
+    return render_template('web.html')
 
 
 if __name__ == '__main__':

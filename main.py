@@ -85,6 +85,7 @@ dbConnection.close()
 
 ## Save databasefile
 frame.to_csv(r'E:\AiBeesAsst\AI Bees Project\Data Branch\dbfile.csv',index=False)
+frame.to_csv(r'E:\AiBeesAsst\AI Bees Project\static\dbfile.csv',index=False)
 
 
 # In[ ]:
