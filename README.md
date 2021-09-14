@@ -86,4 +86,16 @@ Shows generated data with timestamp in GUI:<br>
 
 <hr>
 
+## Citing
+```
+@misc{AI Text Generation,
+  author = {Sanjoy Biswas},
+  title = {Detect the topic of the text and write a proper comment for the text,  store the generate comment in database and shows it with rest API.},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  url="https://github.com/imsanjoykb/Text-Generation",
+}
+```
+
 
