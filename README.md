@@ -1,6 +1,7 @@
 ![Author](https://img.shields.io/badge/author-SanjoyBiswas-orange)
 [![Stars](https://img.shields.io/github/stars/imsanjoykb/Text-Generation.svg?style=social)](https://github.com/imsanjoykb/Text-Generation/)
 [![MIT](https://img.shields.io/badge/license-MIT-5eba00.svg)](https://github.com/imsanjoykb/Text-Generation/LICENCE.txt)
+![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
 [![Open Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/imsanjoykb/Text-Generation/blob/master/Text_Generation.ipynb)
 
 
